@@ -40,5 +40,12 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <name>Nexus Snapshot Repository</name>
+        <url>http://3.8.181.41:8081/repository/java-project/</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
 
